@@ -15,7 +15,7 @@ function caerFotos() {
     const lluviaFotos = document.createElement('div');
     lluviaFotos.classList.add('lluvia-fotos');
 
-    const fotos = ['Amor.jpeg', 'Amor2.jpeg', 'Amor3.jpeg', 'Amor4.jpeg', 'Amor5.jpeg', 'Amor6.jpeg', '344104218_951373752769400_5089909974250628094_n.jpg']; // Rutas de las fotos
+    const fotos = ['Amor.jpeg', 'Amor2.jpeg', 'Amor3.jpeg', 'Amor4.jpeg', 'Amor5.jpeg', 'Amor6.jpeg', '344104218_951373752769400_5089909974250628094_n.jpg','Amor7.jpg']; // Rutas de las fotos
 
     for (let i = 0; i < 7; i++) { // Crear 7 fotos
         const foto = document.createElement('img');
